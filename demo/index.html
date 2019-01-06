@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="css/amazeui.min.css">
+    <link rel="stylesheet" href="css/wap.css?2">
+    <title>首页</title>
+</head>
+<body>
+
+<div class="pet_mian" id="top">
+
+<div class="baoy-top">汽车维修保养库</div>
+  
+  <div class="tab1 tab">
+                      <ul class="tab-nav">
+                <li class="actived"><a href="javascript:;">首页</a></li>
+                <li> <a href="javascript:;">保养要览</a> </li>
+                <li> <a href="javascript:;">保养设置归零</a> </li>
+                <li> <a href="javascript:;">保养方案</a> </li>
+              </ul>
+                      <div class="content-wrap">
+                <div class="content-item current">
+				
+				首页内容
+				
+				</div>
+                <div class="content-item">
+				<section data-am-widget="accordion" class="am-accordion am-accordion-default" data-am-accordion='{ "multiple": true }'>
+      
+      <dl class="am-accordion-item">
+        <dt class="am-accordion-title">
+          <img src="img/1.png" />发动机润滑系统
+        </dt>
+        <dd class="am-accordion-bd am-collapse ">
+          <div class="am-accordion-content">
+            1
+          </div>
+        </dd>
+      </dl>
+      <dl class="am-accordion-item">
+        <dt class="am-accordion-title">
+          <img src="img/1.png" />发动机燃油系统
+        </dt>
+        <dd class="am-accordion-bd am-collapse ">
+          <div class="am-accordion-content">
+            2
+          </div>
+        </dd>
+      </dl>
+	  <dl class="am-accordion-item">
+        <dt class="am-accordion-title">
+          <img src="img/1.png" />发动机进气系统
+        </dt>
+        <dd class="am-accordion-bd am-collapse ">
+          <div class="am-accordion-content">
+            3
+          </div>
+        </dd>
+      </dl>
+	  <dl class="am-accordion-item">
+        <dt class="am-accordion-title">
+          <img src="img/1.png" />发动机排气系统
+        </dt>
+        <dd class="am-accordion-bd am-collapse ">  
+          <div class="am-accordion-content">
+            4
+          </div>
+        </dd>
+      </dl>
+  </section>
+				</div>
+                <div class="content-item"> 保养设置归零</div>
+                <div class="content-item"> 保养方案 </div>
+              </div>
+                    </div>
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/amazeui.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+			$(window).ready(function() {
+				$('.tab1').tabChange({
+					name: '.tab1',
+					invoke: 0,
+					behavior: 'click',
+					effect:'fade',
+					time:2000
+				})
+			})
+		</script>
+</body>
+</html>
